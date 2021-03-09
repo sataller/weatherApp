@@ -1,0 +1,57 @@
+.content {
+    min-width: 30%;
+    display: inline-block;
+    border: black 1px solid;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 10px;
+    /*background-color: rgba(128,128,128, 0.4)*/
+    box-shadow: 0 0 40px rgba(0,0,0,0.5);
+}
+
+.item {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    float: left;
+    display: inline-block;
+
+}
+
+.city{
+    font-weight: bold;
+}
+
+.feelsLike{
+    border: grey 1px solid;
+    border-radius: 5px;
+    background-color: #e9ffa0;
+}
+
+.buttons {
+    display: block;
+    justify-content: right;
+    text-align: right;
+}
+
+.button {
+    margin: 5px;
+    cursor: pointer;
+}
+
+.temp {
+    display: inline-block;
+    font-size: larger;
+}
+
+.icon {
+    width: 40px;
+}
+
+.wind {
+    display: inline-block;
+}

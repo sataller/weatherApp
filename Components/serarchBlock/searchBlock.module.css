@@ -1,0 +1,29 @@
+.content {
+    padding: 20px;
+}
+
+.searchField {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkboxWrapper {
+    display: inline-block;
+    vertical-align: center;
+    margin: 20px;
+    padding: 2px;
+    border-radius: 5px;
+    border: rgba(137, 137, 137, 0.62) 1px solid;
+}
+
+.checkboxWrapper:hover{
+    border: rgb(11, 11, 11) 1px solid;
+}
+
+.delay{
+    width: 60px;
+    border-radius: 5px;
+    margin: 2px;
+}
